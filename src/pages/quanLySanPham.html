@@ -1,0 +1,125 @@
+<div class="container">
+  <div class="input_sanpham">
+    <div class="row">
+      <div class="col-3"></div>
+      <div class="col-6">
+        <div class="form-floating mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id="floatingInput"
+            placeholder="name@example.com"
+            ng-model="form_sanpham.name"
+          />
+          <label for="floatingInput">TÊN SẢN PHẨM</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input
+            type="number"
+            class="form-control"
+            id="floatingPassword"
+            placeholder="Password"
+            ng-model="form_sanpham.price"
+          />
+          <label for="floatingPassword">GIÁ SẢN PHẨM</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id="floatingPassword"
+            placeholder="Password"
+            ng-model="form_sanpham.moTa"
+          />
+          <label for="floatingPassword">MÔ TẢ SẢN PHẨM</label>
+        </div>
+        <div class="form-floating mb-3">
+          <select
+            class="form-select"
+            ng-model="form_sanpham.loai"
+            ng-checked="form_sanpham.loai"
+          >
+            <option value="CARD">CARD</option>
+            <option value="MAIN">MAIN</option>
+            <option value="CHIP">CHIPSET</option>
+            <option value="RAM">RAM</option>
+          </select>
+        </div>
+        <div class="form-floating mb-3">
+          <select
+            class="form-select"
+            ng-model="form_sanpham.trangThai"
+            ng-checked="form_sanpham.trangThai"
+          >
+            <option value="new">SẢN PHẨM MỚI</option>
+            <option value="banChay">SẢN PHẨM BÁN CHẠY</option>
+            <option value="conHang">SẢN PHẨM BÌNH THƯỜNG</option>
+          </select>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="file" class="form-control" aria-label="file example" />
+          <div class="invalid-feedback">Example invalid form file feedback</div>
+        </div>
+        <div class="form-floating mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Password"
+            ng-model="form_sanpham.image"
+          />
+          <label for="floatingPassword">NHẬP TÊN ẢNH</label>
+        </div>
+      </div>
+      <div class="col-3"></div>
+    </div>
+  </div>
+  <hr />
+  <div class="d-grid gap-2 d-md-block">
+    <button class="mauSacNut" type="button" ng-click="addSanPham($event)">
+      THÊM</button
+    >&emsp;&emsp;
+    <button class="mauSacNut" type="button" ng-click="updateSanPham($event)">
+      SỬA</button
+    >&emsp;&emsp;
+    <button class="mauSacNut" type="button" ng-click="clearFormSanPham()">
+      CLEAR</button
+    >&emsp;&emsp;
+  </div>
+  <hr />
+  <h5>BẢNG TẤT CẢ SẢN PHẨM</h5>
+  <hr />
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">STT</th>
+        <th scope="col">NAME</th>
+        <th scope="col">PRICE</th>
+        <th scope="col">IMAGE</th>
+        <th scope="col">LOẠI</th>
+        <th scope="col">MÔ TẢ</th>
+        <th scope="col">TRẠNG THÁI</th>
+        <th scope="col">HIỂN THỊ</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="lk in listAllSanPham">
+        <th>{{$index+1}}</th>
+        <td>{{lk.name}}</td>
+        <td>{{lk.price}}</td>
+        <td>{{lk.image}}</td>
+        <td>{{lk.loai}}</td>
+        <td>{{lk.moTa}}</td>
+        <td>{{lk.trangThai}}</td>
+        <td>
+          <a href="" ng-click="detailSanPham($index)"
+            ><i class="bi bi-hand-index"></i
+          ></a>
+          <a href="" ng-click="deleteSanPham($event, $index)"
+            ><i class="bi bi-trash"></i
+          ></a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<h1>{{result}}</h1>

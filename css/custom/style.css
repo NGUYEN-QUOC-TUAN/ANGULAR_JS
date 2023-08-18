@@ -1,0 +1,318 @@
+.facebook_tiktok a {
+  color: black;
+  text-decoration: none;
+}
+.facebook_tiktok i {
+  padding-right: 6px;
+}
+.facebook_tiktok a {
+  cursor: pointer;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  border-radius: 16px;
+  line-height: 28px;
+  padding: 0 19px;
+  background: linear-gradient(91.56deg, #a04dff 2.74%, #ca7309 96.84%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: block;
+}
+.quan_ly {
+  background-color: #52ceff;
+}
+.tao_khoang_cach {
+  padding: 8px;
+}
+.khuyen_mai a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+  text-align: center;
+}
+.khuyen_mai i {
+  padding-right: 6px;
+}
+.login_home {
+  margin-right: 1px;
+}
+.login_home a {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  border-radius: 16px;
+  line-height: 28px;
+  padding: 0 16px;
+  background: linear-gradient(91.56deg, #a352ff 2.74%, #ce7100 96.84%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.login_home i {
+  padding-right: 5px;
+}
+.header_lienhe {
+  background-color: rgb(26, 179, 255);
+  padding: 10px;
+}
+.header_menu {
+  background-color: #423eff;
+  padding: 10px;
+}
+.logo a {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 16px;
+}
+.logo a i {
+  padding-right: 5px;
+}
+.header_chinhsach p {
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+.header_chinhsach p i {
+  color: white;
+  text-decoration: none;
+  padding-right: 5px;
+}
+
+.icon_gio_hang a i {
+  display: block;
+  padding: 5px;
+  border-radius: 10%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  cursor: pointer;
+  font-weight: 700;
+}
+.gio_hang {
+  position: absolute;
+  margin-top: 7px;
+  padding-left: 70px;
+}
+.icon_gio_hang {
+  width: 55px;
+  height: 40px;
+  margin: 0;
+  font-size: 30px;
+  position: relative;
+  border-radius: 10%;
+  color: white;
+}
+
+.nut_search {
+  cursor: pointer;
+  font-weight: 700;
+  width: 150px;
+  color: white;
+  border: 1px white solid;
+  border-radius: 5%;
+  background: linear-gradient(91.56deg, #52ceff 2.74%, #ffaf36 96.84%);
+}
+.navbar-nav {
+  margin: auto;
+}
+.navbar-nav li a {
+  margin-left: 30px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 14px;
+  background: linear-gradient(91.56deg, #a04dff 2.74%, #d17d00fa 96.84%);
+}
+.menu_header {
+  background-color: hsl(197, 100%, 63%);
+}
+footer {
+  margin-top: 30px;
+  background-color: #423eff;
+}
+.noidung_footer h4 {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+.noidung_footer ul li {
+  list-style: none;
+}
+.noidung_footer ul li a {
+  cursor: pointer;
+  font-weight: 700;
+  width: 150px;
+  color: white;
+  text-decoration: none;
+}
+.khoang_cach {
+  margin-top: 35px;
+}
+.noidung_footer ul li a i {
+  padding-right: 5px;
+}
+.kichThuocAnh {
+  width: 150px;
+}
+
+.vitri {
+  position: absolute;
+}
+.vitri2 {
+  position: absolute;
+}
+.gioiThieuSP {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.sanpham_gioi_thieu {
+  height: 379px;
+  background: linear-gradient(91.56deg, #a04dff 2.74%, #d17d00fa 96.84%);
+}
+.sanpham_gioi_thieu img {
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.box {
+  background-color: #faf9fa;
+  position: relative;
+  padding: 10px 15px;
+  margin-top: 25px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.box .img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 15px 30px;
+  height: 245px;
+}
+.box .img-box img {
+  max-width: 100%;
+  max-height: 175px;
+}
+.box .detail-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.box a {
+  color: #000000;
+  text-decoration: none;
+}
+.box .new {
+  padding: 7px 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f0d43a;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 15px;
+}
+.san_pham_new {
+  margin-top: 400px;
+}
+.tieu_de_san_pham {
+  background-color: hsl(197, 100%, 63%);
+}
+.tieu_de_san_pham a {
+  cursor: pointer;
+  font-weight: 700;
+  text-decoration: none;
+}
+.tieu_de_san_pham {
+  text-align: center;
+}
+.mau_sac {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+.muahang {
+  background: linear-gradient(91.56deg, #a04dff 2.74%, #d17d00fa 96.84%);
+}
+.button {
+  text-align: center;
+}
+.mau_sac_danhMuc .dropdown-toggle {
+  background: linear-gradient(91.56deg, #a04dff 2.74%, #d17d00fa 96.84%);
+  cursor: pointer;
+  font-weight: 700;
+  width: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.dropdown-menu li a {
+  cursor: pointer;
+  font-weight: 700;
+  width: 400px;
+}
+.input_sanpham {
+  margin-top: 30px;
+}
+.mauSacNut {
+  cursor: pointer;
+  font-weight: 800;
+  text-align: center;
+  color: #feffeb;
+  width: 120px;
+  height: 40px;
+  border-radius: 16px;
+  line-height: 28px;
+  padding: 0 19px;
+  background: linear-gradient(91.56deg, #a04dff 2.74%, #ca7309 96.84%);
+  border: none;
+}
+.d-md-block {
+  text-align: center;
+}
+.bi-hand-index {
+  color: #000000;
+  font-size: 20px;
+}
+.bi-trash {
+  margin-left: 20px;
+  color: #000000;
+  font-size: 20px;
+}
+h5 {
+  cursor: pointer;
+  text-align: center;
+  font-weight: 800;
+}
+h1 {
+  text-align: center;
+}
+.btn-primary {
+  background: linear-gradient(91.56deg, #a04dff 2.74%, #ca7309 96.84%);
+  height: 50px;
+}

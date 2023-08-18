@@ -1,0 +1,210 @@
+<div class="container">
+  <div class="gioiThieuSP">
+    <div class="row">
+      <div class="col-7">
+        <div class="banner">
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner kichThuocAnh">
+              <div class="carousel-item active bogoc">
+                <img
+                  src="../../assets/images/lk2.png"
+                  class="d-block"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../../assets/images/lk3.jpg"
+                  class="d-block"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../../assets/images/lk6.jpg"
+                  class="d-block"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev vitri"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next vitri2"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-5">
+        <div class="sanpham_gioi_thieu">
+          <img src="../../assets/images/lk1.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="tieu_de_san_pham">
+      <a class="mau_sac"> Sản Phẩm Mới Nhất</a>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-3" ng-repeat="mang in listLinhKienNew">
+      <div class="box">
+        <a href="">
+          <div class="img-box">
+            <img src="../../assets/images/{{mang.image}}" alt="" />
+          </div>
+          <div class="detail-box">
+            <h6>{{mang.moTa}}</h6>
+            <h6>
+              Price:
+              <span> {{mang.price}}</span>
+            </h6>
+          </div>
+          <div class="new"><span> {{mang.name}} </span></div>
+        </a>
+        <div class="button">
+          <div class="d-grid gap-2 d-md-block">
+            <button
+              class="btn btn-primary muahang"
+              type="button"
+              ng-click="themSanPhamNewVaoGioHang(mang.id)"
+            >
+              Thêm Vào Giỏ Hàng
+            </button>
+            <a href="#mua-hang/{{mang.id}}">
+              <button class="btn btn-primary muahang" type="button">
+                Mua Hàng
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="tieu_de_san_pham">
+      <a class="mau_sac"> Sản Phẩm Bán Chạy Nhất</a>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-3" ng-repeat="mang in listLinhKienBanChay">
+      <div class="box">
+        <a href="">
+          <div class="img-box">
+            <img src="../../assets/images/{{mang.image}}" alt="" />
+          </div>
+          <div class="detail-box">
+            <h6>{{mang.moTa}}</h6>
+            <h6>
+              Price:
+              <span> {{mang.price}}</span>
+            </h6>
+          </div>
+          <div class="new"><span> {{mang.name}} </span></div>
+        </a>
+        <div class="button">
+          <div class="d-grid gap-2 d-md-block">
+            <button
+              class="btn btn-primary muahang"
+              type="button"
+              ng-click="themSanPhamBanChayVaoGioHang(mang.id)"
+            >
+              Thêm Vào Giỏ Hàng
+            </button>
+            <a href="#mua-hang/{{mang.id}}">
+              <button class="btn btn-primary muahang" type="button">
+                Mua Hàng
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br />
+<br />
+<div class="container">
+  <div class="row">
+    <div class="col-7">
+      <div class="banner">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner kichThuocAnh">
+            <div class="carousel-item active bogoc">
+              <img
+                src="../../assets/images/lk2.png"
+                class="d-block"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../../assets/images/lk3.jpg"
+                class="d-block"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../../assets/images/lk6.jpg"
+                class="d-block"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev vitri"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next vitri2"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-5">
+      <div class="sanpham_gioi_thieu">
+        <img src="../../assets/images/lk1.png" alt="" />
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,59 @@
+<br />
+<h1>ĐĂNG KÝ</h1>
+<br />
+<div class="container">
+  <div class="row">
+    <div class="col-4"></div>
+    <div class="col-4">
+      <div class="form-floating mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id="floatingInput"
+          placeholder="name@example.com"
+          ng-model="form_dangnhap.taiKhoan"
+        />
+        <label for="floatingInput">TÀI KHOẢN</label>
+      </div>
+      <div class="form-floating">
+        <input
+          type="text"
+          class="form-control"
+          id="floatingPassword"
+          placeholder="Password"
+          ng-model="form_dangnhap.soDienThoai"
+        />
+        <label for="floatingPassword">SỐ ĐIỆN THOẠI</label>
+      </div>
+      <br />
+      <div class="form-floating">
+        <input
+          type="password"
+          class="form-control"
+          id="floatingPassword"
+          placeholder="Password"
+          ng-model="form_dangnhap.matKhau"
+        />
+        <label for="floatingPassword">MẬT KHẨU</label>
+      </div>
+      <br />
+      <div class="form-floating">
+        <input
+          type="password"
+          class="form-control"
+          id="floatingPassword"
+          ng-model="form_dangnhap_matKhau_2"
+          placeholder="Password"
+        />
+        <label for="floatingPassword">NHẬP LẠI MẬT KHẨU</label>
+      </div>
+      <br />
+      <div class="d-grid gap-2">
+        <button class="btn btn-primary" type="button" ng-click="dangKy($event)">
+          ĐĂNG KÝ TÀI KHOẢN
+        </button>
+      </div>
+    </div>
+    <div class="col-4"></div>
+  </div>
+</div>

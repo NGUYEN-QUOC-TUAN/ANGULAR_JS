@@ -1,0 +1,206 @@
+<div class="container">
+  <div class="dropdown mau_sac_danhMuc">
+    <button
+      class="btn btn-secondary dropdown-toggle"
+      type="button"
+      data-bs-toggle="dropdown"
+      aria-expanded="false"
+    >
+      DANH MỤC SẢN PHẨM
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" ng-click="getALl()">TẤT CẢ</a></li>
+      <li><a class="dropdown-item" ng-click="locSanPhamChip()">CHIPSET</a></li>
+      <li>
+        <a class="dropdown-item" ng-click="locSanPhamMain()">MAINBOARD</a>
+      </li>
+      <li><a class="dropdown-item" ng-click="locSanPhamCard()">CARD</a></li>
+      <li><a class="dropdown-item" ng-click="locSanPhamRam()">RAM</a></li>
+    </ul>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-3" ng-repeat="mang in listAllSanPham">
+      <div class="box">
+        <a href="">
+          <div class="img-box">
+            <img src="../../assets/images/{{mang.image}}" alt="" />
+          </div>
+          <div class="detail-box">
+            <h6>{{mang.moTa}}</h6>
+            <h6>
+              Price:
+              <span> {{mang.price}}</span>
+            </h6>
+          </div>
+          <div class="new"><span> {{mang.name}} </span></div>
+        </a>
+        <div class="button">
+          <div class="d-grid gap-2 d-md-block">
+            <button
+              class="btn btn-primary muahang"
+              type="button"
+              ng-click="themSanPhamVaoGioHang(mang.id)"
+            >
+              Thêm Vào Giỏ Hàng
+            </button>
+            <a href="#mua-hang/{{mang.id}}">
+              <button class="btn btn-primary muahang" type="button">
+                Mua Hàng
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-3" ng-repeat="mang in listAllSanPhamMain">
+      <div class="box">
+        <a href="">
+          <div class="img-box">
+            <img src="../../assets/images/{{mang.image}}" alt="" />
+          </div>
+          <div class="detail-box">
+            <h6>{{mang.moTa}}</h6>
+            <h6>
+              Price:
+              <span> {{mang.price}}</span>
+            </h6>
+          </div>
+          <div class="new"><span> {{mang.name}} </span></div>
+        </a>
+        <div class="button">
+          <div class="d-grid gap-2 d-md-block">
+            <button
+              class="btn btn-primary muahang"
+              type="button"
+              ng-click="themSanPhamMainVaoGioHang(mang.id)"
+            >
+              Thêm Vào Giỏ Hàng
+            </button>
+            <a href="#mua-hang/{{mang.id}}">
+              <button class="btn btn-primary muahang" type="button">
+                Mua Hàng
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-3" ng-repeat="mang in listAllSanPhamRam">
+      <div class="box">
+        <a href="">
+          <div class="img-box">
+            <img src="../../assets/images/{{mang.image}}" alt="" />
+          </div>
+          <div class="detail-box">
+            <h6>{{mang.moTa}}</h6>
+            <h6>
+              Price:
+              <span> {{mang.price}}</span>
+            </h6>
+          </div>
+          <div class="new"><span> {{mang.name}} </span></div>
+        </a>
+        <div class="button">
+          <div class="d-grid gap-2 d-md-block">
+            <button
+              class="btn btn-primary muahang"
+              type="button"
+              ng-click="themSanPhamRamVaoGioHang(mang.id)"
+            >
+              Thêm Vào Giỏ Hàng
+            </button>
+            <a href="#mua-hang/{{mang.id}}">
+              <button class="btn btn-primary muahang" type="button">
+                Mua Hàng
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-3" ng-repeat="mang in listAllSanPhamCard">
+      <div class="box">
+        <a href="">
+          <div class="img-box">
+            <img src="../../assets/images/{{mang.image}}" alt="" />
+          </div>
+          <div class="detail-box">
+            <h6>{{mang.moTa}}</h6>
+            <h6>
+              Price:
+              <span> {{mang.price}}</span>
+            </h6>
+          </div>
+          <div class="new"><span> {{mang.name}} </span></div>
+        </a>
+        <div class="button">
+          <div class="d-grid gap-2 d-md-block">
+            <button
+              class="btn btn-primary muahang"
+              type="button"
+              ng-click="themSanPhamCardVaoGioHang(mang.id)"
+            >
+              Thêm Vào Giỏ Hàng
+            </button>
+            <a href="#mua-hang/{{mang.id}}">
+              <button class="btn btn-primary muahang" type="button">
+                Mua Hàng
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-3" ng-repeat="mang in listAllSanPhamChip">
+      <div class="box">
+        <a href="">
+          <div class="img-box">
+            <img src="../../assets/images/{{mang.image}}" alt="" />
+          </div>
+          <div class="detail-box">
+            <h6>{{mang.moTa}}</h6>
+            <h6>
+              Price:
+              <span> {{mang.price}}</span>
+            </h6>
+          </div>
+          <div class="new"><span> {{mang.name}} </span></div>
+        </a>
+        <div class="button">
+          <div class="d-grid gap-2 d-md-block">
+            <button
+              class="btn btn-primary muahang"
+              type="button"
+              ng-click="themSanPhamChipVaoGioHang(mang.id)"
+            >
+              Thêm Vào Giỏ Hàng
+            </button>
+            <a href="#mua-hang/{{mang.id}}">
+              <button class="btn btn-primary muahang" type="button">
+                Mua Hàng
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

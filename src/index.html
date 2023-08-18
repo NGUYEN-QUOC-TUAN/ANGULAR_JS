@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myModule">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASSIGNMENT</title>
+    <link rel="stylesheet" href="../css/custom/style.css" />
+    <link rel="stylesheet" href="../css/plugin/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+  <body ng-controller="controller">
+  </head>
+    <header>
+      <nav ng-include="'./layout/trangchu/header.html'"></nav>
+    </header>
+    <section>
+      <div ng-view></div>
+    </section>
+    <footer>
+      <nav ng-include="'./layout/trangchu/footer.html'"></nav>
+    </footer>
+    <script src="../lib/angular.js"></script>
+    <script src="../lib/angular-route.js"></script>
+    <script src="../js/plugin/bootstrap.bundle.js"></script>
+    <script src="./controller/linhKienController/linh-KienController.js"></script>
+    <script src="./controller/linhKienController/san-PhamController.js"></script>
+    <script src="./controller/linhKienController/muaHangController.js"></script>
+    <script src="./config/api.js"></script>
+    <script src="./route.js"></script>
+  </body>
+</html>

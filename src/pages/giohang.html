@@ -1,0 +1,85 @@
+<div class="container">
+  <div class="dropdown mau_sac_danhMuc">
+    <button
+      class="btn btn-secondary dropdown-toggle"
+      type="button"
+      data-bs-toggle="dropdown"
+      aria-expanded="false"
+    >
+      LỰA CHỌN PHẦN CẦN XEM
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" ng-click="sanPhamDaMua()">SẢN PHẨM ĐÃ ĐƯỢC MUA</a></li>
+      <li><a class="dropdown-item" ng-click="sanPhamTrongGio()">SẢN PHẨM ĐƯỢC CÓ TRONG GIỎ</a></li>
+    </ul>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12" ng-repeat="mang in listAllSanPhamTrongGio">
+      <div class="box">
+        <a href="">
+          <div class="img-box">
+            <img src="../../assets/images/{{mang.image}}" alt="" />
+          </div>
+          <div class="detail-box">
+            <h6>{{mang.moTa}}</h6>
+            <h6>
+              Price:
+              <span> {{mang.price}}</span>
+            </h6>
+          </div>
+          <div class="new"><span> {{mang.name}}</span></div>
+        </a>
+        <div class="button">
+          <div class="d-grid gap-2 d-md-block">
+            <button
+              class="btn btn-primary muahang"
+              type="button"
+              ng-click="xoaSanPhamGioHang(mang.id)"
+            >
+              XÓA SẢN PHẨM
+            </button>
+            <a href="#mua-hang/{{mang.id}}">
+              <button class="btn btn-primary muahang" type="button">
+                Mua Hàng
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12" ng-repeat="mang in listAllSanPhamDaMua">
+      <div class="box">
+        <a href="">
+          <div class="img-box">
+            <img src="../../assets/images/{{mang.image}}" alt="" />
+          </div>
+          <div class="detail-box">
+            <h6>{{mang.moTa}}</h6>
+            <h6>
+              Price:
+              <span> {{mang.price}}</span>
+            </h6>
+          </div>
+          <div class="new"><span> {{mang.name}}</span></div>
+        </a>
+        <div class="button">
+          <div class="d-grid gap-2 d-md-block">
+            <button
+              class="btn btn-primary muahang"
+              type="button"
+              ng-click="xoaSanPhamDaMua(mang.id)"
+            >
+              XÓA SẢN PHẨM
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

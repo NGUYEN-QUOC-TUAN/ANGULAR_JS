@@ -1,0 +1,442 @@
+{
+  "LinhKienAll": [
+    {
+      "id": 1,
+      "moTa": "MAIN",
+      "price": 1980,
+      "image": "M3.jpg",
+      "loai": "MAIN",
+      "name": "B560MH HỖ TRỢ AI",
+      "trangThai": "banChay"
+    },
+    {
+      "id": 2,
+      "moTa": "CARD",
+      "price": 1980,
+      "image": "c2.jpg",
+      "loai": "CARD",
+      "name": "RTX 11G RAM",
+      "trangThai": "banChay"
+    },
+    {
+      "id": 3,
+      "moTa": "CARD",
+      "price": 1980,
+      "image": "c7.jpg",
+      "loai": "CARD",
+      "name": "RTX 2080 TI",
+      "trangThai": "banChay"
+    },
+    {
+      "id": 4,
+      "moTa": "MAIN",
+      "price": 1980,
+      "image": "M3.jpg",
+      "loai": "MAIN",
+      "name": "B560MH HỖ TRỢ AI",
+      "trangThai": "banChay"
+    },
+    {
+      "id": 5,
+      "moTa": "CHIP",
+      "price": 1980,
+      "image": "n3.jpg",
+      "loai": "CHIP",
+      "name": "I9 TH13 UNLOCKED",
+      "trangThai": "banChay"
+    },
+    {
+      "id": 6,
+      "moTa": "MAIN",
+      "price": 1980,
+      "image": "M10.png",
+      "loai": "MAIN",
+      "name": "B760 AORUS HỖ TRỢ TH13",
+      "trangThai": "banChay"
+    },
+    {
+      "id": 7,
+      "moTa": "RAM",
+      "price": 1980,
+      "image": "k6.jpg",
+      "loai": "RAM",
+      "name": "NOX DDR5",
+      "trangThai": "banChay"
+    },
+    {
+      "id": 8,
+      "moTa": "CARD",
+      "price": 1980,
+      "image": "c5.jpg",
+      "loai": "CARD",
+      "name": "ROG STRIX 166OTI",
+      "trangThai": "banChay"
+    },
+    {
+      "id": 9,
+      "moTa": "CARD ĐỒ HỌA",
+      "price": 2000,
+      "image": "c1.jpg",
+      "loai": "CARD",
+      "name": "SIÊU MANH",
+      "trangThai": "new"
+    },
+    {
+      "id": 10,
+      "moTa": "RAM",
+      "price": 2000,
+      "image": "k1.jpg",
+      "loai": "RAM",
+      "name": "32G",
+      "trangThai": "new"
+    },
+    {
+      "id": 11,
+      "moTa": "CHIP",
+      "price": 2000,
+      "image": "n2.jpg",
+      "loai": "CHIP",
+      "name": "16 NHÂN 24 LUỒNG",
+      "trangThai": "new"
+    },
+    {
+      "id": 12,
+      "moTa": "MAIN",
+      "price": 2000,
+      "image": "M2.png",
+      "loai": "MAIN",
+      "name": "B660I HỖ TRỢ WIFI",
+      "trangThai": "new"
+    },
+    {
+      "id": 13,
+      "moTa": "CHIP",
+      "price": 1980,
+      "image": "n2.jpg",
+      "loai": "CHIP",
+      "name": "I9 TH11 UNLOCKED",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 14,
+      "moTa": "CARD",
+      "price": 7563,
+      "image": "c4.jpg",
+      "loai": "CARD",
+      "name": "RTX 2080 TI OC",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 15,
+      "moTa": "MAIN",
+      "price": 3734,
+      "image": "M3.jpg",
+      "loai": "MAIN",
+      "name": "B560MH HỖ TRỢ AI",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 16,
+      "moTa": "CHIP",
+      "price": 4376,
+      "image": "n4.jpg",
+      "loai": "CHIP",
+      "name": "ITEL PENTIUM GOLD",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 17,
+      "moTa": "RAM",
+      "price": 2674,
+      "image": "k5.jpg",
+      "loai": "RAM",
+      "name": "XPG WHITE DDR5 32G",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 18,
+      "moTa": "CHIP",
+      "price": 4574,
+      "image": "n5.jpeg",
+      "loai": "CHIP",
+      "name": "ITEL CORE UNLOCKED",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 19,
+      "moTa": "RAM",
+      "price": 1235,
+      "image": "k2.jpg",
+      "loai": "RAM",
+      "name": "T-CREATE EXPERT",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 20,
+      "moTa": "MAIN",
+      "price": 4356,
+      "image": "M5.jpg",
+      "loai": "MAIN",
+      "name": "Z370 HD 3",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 21,
+      "moTa": "RAM",
+      "price": 5367,
+      "image": "k7.jpg",
+      "loai": "RAM",
+      "name": "WENGEANCE",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 22,
+      "moTa": "MAIN",
+      "price": 6563,
+      "image": "M6.jpg",
+      "loai": "MAIN",
+      "name": "H410M DS2V",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 23,
+      "moTa": "CARD",
+      "price": 4646,
+      "image": "c5.jpg",
+      "loai": "CARD",
+      "name": "ROG STRIX 166OTI",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 24,
+      "moTa": "MAIN",
+      "price": 3453,
+      "image": "M7.jpg",
+      "loai": "MAIN",
+      "name": "AORUS XI",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 25,
+      "moTa": "MAIN",
+      "price": 5473,
+      "image": "M8.jpg",
+      "loai": "MAIN",
+      "name": "ROG STRIX LIMITED",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 26,
+      "moTa": "RAM",
+      "price": 4574,
+      "image": "k4.jpg",
+      "loai": "RAM",
+      "name": "XPG BLACK DDR5",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 27,
+      "moTa": "MAIN",
+      "price": 6343,
+      "image": "M9.jpg",
+      "loai": "MAIN",
+      "name": "Z790 AURUS MASTER",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 28,
+      "moTa": "RAM",
+      "price": 2332,
+      "image": "k6.jpg",
+      "loai": "RAM",
+      "name": "NOX DDR5",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 29,
+      "moTa": "MAIN",
+      "price": 2324,
+      "image": "M10.png",
+      "loai": "MAIN",
+      "name": "Z760 AURUS PRO DDR4",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 30,
+      "moTa": "MAIN",
+      "price": 1328,
+      "image": "M12.jpg",
+      "loai": "MAIN",
+      "name": "B560M A PRIME",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 31,
+      "moTa": "CHIP",
+      "price": 1238,
+      "image": "n6.jpg",
+      "loai": "CHIP",
+      "name": "ITEL CORE I3 TH13",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 32,
+      "moTa": "MAIN",
+      "price": 3240,
+      "image": "M13.jpg",
+      "loai": "MAIN",
+      "name": "Z790 GIGABYTE UD",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 33,
+      "moTa": "CARD",
+      "price": 1453,
+      "image": "c2.jpg",
+      "loai": "CARD",
+      "name": "RTX 11G RAM",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 34,
+      "moTa": "RAM",
+      "price": 1650,
+      "image": "k3.jpg",
+      "loai": "RAM",
+      "name": "G.SKILL TRIDENT",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 35,
+      "moTa": "CARD",
+      "price": 5680,
+      "image": "c1.jpg",
+      "loai": "CARD",
+      "name": "MSI 24G",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 36,
+      "moTa": "CARD",
+      "price": 1230,
+      "image": "c3.jpg",
+      "loai": "CARD",
+      "name": "RTX 2080 TI",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 37,
+      "moTa": "MAIN",
+      "price": 7680,
+      "image": "M4.png",
+      "loai": "MAIN",
+      "name": "B250M GAMING 3",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 38,
+      "moTa": "CARD",
+      "price": 1320,
+      "image": "c7.jpg",
+      "loai": "CARD",
+      "name": "EXPEDITION 2G",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 39,
+      "moTa": "MAIN",
+      "price": 2980,
+      "image": "M2.png",
+      "loai": "MAIN",
+      "name": "B660I AORUS",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 40,
+      "moTa": "CHIP",
+      "price": 5380,
+      "image": "n3.jpg",
+      "loai": "CHIP",
+      "name": "I9 TH13 UNLOCKED",
+      "trangThai": "conHang"
+    },
+    {
+      "id": 41,
+      "moTa": "RAM",
+      "price": 3280,
+      "image": "k1.jpg",
+      "loai": "RAM",
+      "name": "XPG WHITE DDR5",
+      "trangThai": "conHang"
+    }
+  ],
+  "gioHang": [
+    {
+      "id": 6,
+      "moTa": "MAIN",
+      "price": 1980,
+      "image": "M10.png",
+      "loai": "MAIN",
+      "name": "B760 AORUS HỖ TRỢ TH13",
+      "trangThai": "banChay"
+    }
+  ],
+  "taiKhoan": [
+    {
+      "taiKhoan": "HOANGTUAN",
+      "matKhau": "123",
+      "soDienThoai": "0945525830",
+      "id": 1
+    },
+    {
+      "taiKhoan": "THANHTHUY",
+      "matKhau": "123",
+      "soDienThoai": "0332129897",
+      "id": 2
+    },
+    {
+      "taiKhoan": "HOANGTAM",
+      "matKhau": "234",
+      "soDienThoai": "0321555655",
+      "id": 3
+    }
+  ],
+  "daMuaHang": [
+    {
+      "id": 6,
+      "moTa": "MAIN",
+      "price": 1980,
+      "image": "M10.png",
+      "loai": "MAIN",
+      "name": "B760 AORUS HỖ TRỢ TH13",
+      "trangThai": "banChay"
+    },
+    {
+      "id": "RTX 11G RAM",
+      "moTa": "CARD",
+      "price": 1980,
+      "image": "c2.jpg",
+      "loai": "CARD",
+      "name": "RTX 11G RAM",
+      "trangThai": "banChay"
+    },
+    {
+      "id": "I9 TH13 UNLOCKED",
+      "moTa": "CHIP",
+      "price": 5380,
+      "image": "n3.jpg",
+      "loai": "CHIP",
+      "name": "I9 TH13 UNLOCKED",
+      "trangThai": "conHang"
+    },
+    {
+      "id": "B760 AORUS HỖ TRỢ TH13",
+      "moTa": "MAIN",
+      "price": 1980,
+      "image": "M10.png",
+      "loai": "MAIN",
+      "name": "B760 AORUS HỖ TRỢ TH13",
+      "trangThai": "banChay"
+    }
+  ]
+}
